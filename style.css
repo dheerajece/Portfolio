@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeff1;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  height: 80px;
+}
+.iconSectionContainer a{
+  text-decoration: none;
+  margin: 0px 10px;
+  color: #1a1c20;
+}
+
+.iconSectionContainer span{
+  margin-left: 5px;
+}
+.emailBtn{
+  background-color: #1a1c20;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.navHeader{
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1c20;
+  text-decoration: none;
+}
+
+.intro-section{
+  display: flex;
+  margin: 50px 0px 100px 0px;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 35px;
+}
+.intro-text-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.profile-img img{
+  width: 350px;
+  border-radius: 60%;
+}
+.intro-text-content h2{
+  font-size: 45px;
+}
+.intro-text-content p{
+  font-size: 18px;
+  color: #1a1c20;
+  line-height: 1.5;
+}
+.links{
+  margin-top: 25px;
+}
+.links a{
+  text-decoration: none;
+  display: inline-block;
+  color: #4a76ee;
+  border: 2px solid #4a76ee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.skills-section{
+  padding: 0px 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills-section h2{
+  font-size: 30px;
+  text-align: center;
+}
+.skills-section p{
+  /* font-size: 18px; */
+  /* color: #1a1c20; */
+  /* line-height: 1.5; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dev-skills-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cells{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 5px;
+}
+.cells img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.testimony-section{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  padding: 0px 50px;
+  margin-bottom: 100px;
+}
+.testimony-section h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.testimony-content-container{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.testimony-image-container img{
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;  
+}
+.testimony-image-container{
+  text-align: center;
+}
+.testimony-text-container{
+  flex: 1;
+}
+.testimony-image-header{
+  font-weight: 600;
+}
+.testimony-image-header-info{
+  /* color: #1a1c20; */
+  font-size: 13px;
+}
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  padding: 0px 50px;
+}
+.contact-section h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.contact-content-container{
+  display: flex;
+  gap: 50px;
+}
+.contact-text-content{
+  flex: 1;
+}
+.contact-from-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.contact-from-content input{
+  background-color: transparent;
+  border: 2px solid #4a76ee;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  resize: none;
+}
+.message-area{
+  background-color: transparent;
+  border: 2px solid #4a76ee;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  resize: none;
+}
+.message-btn{
+  font-size: 16px;
+  height: 50px;
+  background-color: #4a76ee;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+@media(max-width: 740px){
+  .intro-section{
+    flex-direction: column-reverse;
+  }
+  .profile-img img{
+    width: 280px;
+  }
+  .intro-text-content h2{
+    font-size: 30px;
+  }
+  .testimony-section{
+    text-align: center;
+  }
+  .testimony-content-container{
+    flex-direction: column;
+  }
+  .contact-content-container{
+    flex-direction: column;
+  }  
+}
+
+@media(max-width: 600px){
+  .navbar{
+    padding: 0px 20px;
+  }
+  .iconSectionContainer span{
+    display: none;
+  }
+  .emailBtn{
+    background-color: transparent;
+    padding: 0px;
+    color: #1a1c20 !important;
+  }
+  .iconSectionContainer a{
+    font-size: 22px;
+  }
+  .intro-section{
+    padding: 0px 20px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .profile-img img{
+    width: 280px;
+  }
+  .intro-text-content h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  .skills-section{
+    padding: 0px 20px;
+  }
+  .testimony-section{
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .testimony-content-container{
+    flex-direction: column;
+  }
+  .contact-section{
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .contact-section h2{
+    margin-bottom: 15px;
+  }
+  .contact-content-container{
+    flex-direction: column;
+  }
+}
