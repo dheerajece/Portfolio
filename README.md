@@ -39,7 +39,7 @@ I combine modern web technologies with AI-assisted workflows to ship faster, sma
 **Tech:** HTML, CSS, JavaScript  
 A personal portfolio showcasing my skills, projects, and experience with a clean UI and responsive design.
 
-👉 Live Demo: _Add your live link here_  
+👉 Live Demo: https://dheerajece.github.io/Portfolio/ 
 👉 Repository: _This repository_
 
 🎯 Focus Areas
