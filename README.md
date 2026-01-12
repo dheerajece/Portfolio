@@ -40,7 +40,7 @@ I combine modern web technologies with AI-assisted workflows to ship faster, sma
 A personal portfolio showcasing my skills, projects, and experience with a clean UI and responsive design.
 
 👉 Live Demo: https://dheerajece.github.io/Portfolio/ 
-👉 Repository: _This repository_
+👉 Repository: https://github.com/dheerajece/Portfolio
 
 🎯 Focus Areas
 
